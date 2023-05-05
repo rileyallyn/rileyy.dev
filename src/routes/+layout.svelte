@@ -11,11 +11,11 @@
 	}, 1500);
 </script>
 
-<div class="absolute h-screen w-full z-20" />
+<!-- <div class="absolute h-screen w-full z-20" /> -->
 
-<!-- <div class="absolute h-screen w-full z-20">
+<div class="absolute h-screen w-full z-20">
 	{#if opener}
-		<div class="flex flex-col mx-auto container" in:fade={{ delay: 300 }}>
+		<div class="flex flex-col mx-auto container min-h-full" in:fade={{ delay: 300 }}>
 			<Header />
 			<slot />
 		</div>
@@ -33,7 +33,6 @@
 			</div>
 		</div>
 	{/if}
-</div> -->
-<div class="relative h-full w-full top-0 z-10">
-	<Background />
 </div>
+
+<!-- <Background /> -->

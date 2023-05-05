@@ -16,16 +16,15 @@
 
 <div>
 	<Canvas>
-		<Theatre>
+		<!-- <Theatre> -->
 			<T.PerspectiveCamera makeDefault position={[21, 20, 25]} fov={24}>
 				<Editable name="Camera" scale transform controls />
 				<OrbitControls
 					maxPolarAngle={degToRad(80)}
 					autoRotate={true}
-					autoRotateSpeed={50}
+					autoRotateSpeed={20}
 					enableZoom={false}
 					enablePan={true}
-					target={{ y: 0.5 }}
 				/>
 			</T.PerspectiveCamera>
 
@@ -38,7 +37,7 @@
 				<T.MeshPhongMaterial map={tex} />
 				<T.TorusGeometry args={[2, 1, 40, 100, 6.3]} />
 			</T.Mesh>
-		</Theatre>
+		<!-- </Theatre> -->
 	</Canvas>
 </div>
 
