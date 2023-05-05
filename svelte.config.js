@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
 import seqPreprocessor from 'svelte-sequential-preprocessor'
 import { preprocessThrelte } from '@threlte/preprocess'
@@ -21,7 +21,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			'components': './src/components/',
-			
+
 		}
 	}
 };
