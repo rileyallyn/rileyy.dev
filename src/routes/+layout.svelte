@@ -15,8 +15,8 @@
 
 <div class="absolute h-screen w-full z-20">
 	{#if opener}
-		<div class="flex flex-col mx-auto container min-h-full" in:fade={{ delay: 300 }}>
-			<Header />
+		<div class="flex flex-col mx-auto container h-full" in:fade={{ delay: 300 }}>
+			<!-- <Header /> -->
 			<slot />
 		</div>
 	{/if}
