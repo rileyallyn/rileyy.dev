@@ -3,8 +3,6 @@
 	import Header from 'components/header.svelte';
 	import '../app.postcss';
 	import { fade } from 'svelte/transition';
-	import { page } from '$app/stores';
-	import { browser } from '$app/environment';
 	// TODO: Find a way to make this work with SSR
 	let opener = true;
 	setTimeout(() => {
